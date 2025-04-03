@@ -1,0 +1,22 @@
+Git download link:" https://git-scm.com/downloads/win "
+Git hub clone link: " https://github.com/saimohith-24/SE.git "
+Step1: Clone the repository
+Step2: cd <repository-name>
+Step3:git checkout -b feature-login
+Step4:git branch (To verify you are in correct branch) (OPTIONAL)
+Step5: Do any changes in file like create,delete,edit (or)
+       Do this: Save this code as login.py
+
+Step6:git add login.py
+Step7:git commit -m "Added login.py with a simple login function"
+Step8:git push origin feature-login
+
+if error:git pull --rebase origin feature-login
+         git push origin feature-login
+
+Step9:git checkout main
+Step10:git pull origin main
+
+login ERROR:
+git config --global user.name "saimohith-24"
+git config --global user.email "chintus2411@gmail.com"
